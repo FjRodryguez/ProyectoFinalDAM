@@ -1,0 +1,727 @@
+{
+    "estilos": [
+        {
+            "nombre": "mariposa",
+            "tecnicas": [
+                {
+                    "nombre": "Batido de piernas",
+                    "descripcion": "Explicación de la técnica correcta para el batido de piernas en el estilo mariposa."
+                },
+                {
+                    "nombre": "Movimiento de las alas",
+                    "descripcion": "Descripción detallada de la técnica del movimiento de las alas en el estilo mariposa."
+                },
+                {
+                    "nombre": "Virajes eficientes",
+                    "descripcion": "Instrucciones para realizar virajes eficientes en el estilo mariposa."
+                }
+            ]
+        },
+        {
+            "nombre": "espalda",
+            "tecnicas": [
+                {
+                    "nombre": "Posición corporal",
+                    "descripcion": "Cómo mantener una buena posición corporal en el estilo espalda."
+                },
+                {
+                    "nombre": "Balanceo de cadera",
+                    "descripcion": "Instrucciones para mejorar el balanceo de cadera en el estilo espalda."
+                },
+                {
+                    "nombre": "Respiración adecuada",
+                    "descripcion": "Pasos para una respiración adecuada en el estilo espalda."
+                }
+            ]
+        },
+        {
+            "nombre": "braza",
+            "tecnicas": [
+                {
+                    "nombre": "Tirón de brazos",
+                    "descripcion": "Pasos para realizar el tirón de brazos de manera efectiva en la braza."
+                },
+                {
+                    "nombre": "Patada de rana",
+                    "descripcion": "Descripción de cómo ejecutar la patada de rana en el estilo braza."
+                },
+                {
+                    "nombre": "Salida de bloques",
+                    "descripcion": "Técnica para una salida rápida y eficiente desde los bloques en el estilo braza."
+                }
+            ]
+        },
+        {
+            "nombre": "crol",
+            "tecnicas": [
+                {
+                    "nombre": "Respiración bilateral",
+                    "descripcion": "Instrucciones para perfeccionar la técnica de respiración bilateral en el crol."
+                },
+                {
+                    "nombre": "Técnica de la brazada",
+                    "descripcion": "Pasos para mejorar la técnica de la brazada en el estilo crol."
+                },
+                {
+                    "nombre": "Pateo de piernas",
+                    "descripcion": "Descripción de cómo realizar el pateo de piernas en el estilo crol."
+                }
+            ]
+        },
+        {
+            "nombre": "delfín",
+            "tecnicas": [
+                {
+                    "nombre": "Ondulación corporal",
+                    "descripcion": "Explicación detallada de cómo realizar la ondulación corporal en el estilo delfín."
+                },
+                {
+                    "nombre": "Patada de delfín",
+                    "descripcion": "Descripción de cómo ejecutar correctamente la patada de delfín."
+                },
+                {
+                    "nombre": "Recuperación de brazos",
+                    "descripcion": "Técnica para una eficiente recuperación de brazos en el estilo delfín."
+                }
+            ]
+        },
+        {
+            "nombre": "pies",
+            "tecnicas": [
+                {
+                    "nombre": "Batido de piernas con tabla",
+                    "descripcion": "Instrucciones para practicar el batido de piernas con tabla en el estilo de pies."
+                },
+                {
+                    "nombre": "Patada vertical",
+                    "descripcion": "Detalles sobre cómo realizar la patada vertical para mejorar la técnica de pies."
+                },
+                {
+                    "nombre": "Resistencia y velocidad",
+                    "descripcion": "Ejercicios para mejorar la resistencia y velocidad en el estilo de pies."
+                }
+            ]
+        }
+    ],
+    "entrenamientos": [
+        {
+            "id": 1,
+            "nombre": "Entrenamiento 1",
+            "nivel": "Principiante",
+            "descripcion": "Entrenamiento para principiantes",
+            "calentamiento": {
+                "ejercicio1": {
+                    "repeticiones": "Calentamiento ligero",
+                    "metros": 200,
+                    "tiempo": "",
+                    "estilo": "nado libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Estiramientos dinámicos",
+                    "metros": "",
+                    "tiempo": 10,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            },
+            "parte_principal": {
+                "ejercicio1": {
+                    "repeticiones": "Serie de 4x50m",
+                    "metros": 50,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "moderado",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Serie de 2x100m",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "intenso",
+                    "material": ""
+                }
+            },
+            "vuelta_a_la_calma": {
+                "ejercicio1": {
+                    "repeticiones": "Nado suave",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Estiramientos estáticos",
+                    "metros": "",
+                    "tiempo": 5,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            }
+        },
+        {
+            "id": 2,
+            "nombre": "Entrenamiento 2",
+            "nivel": "Principiante",
+            "descripcion": "Entrenamiento para principiantes",
+            "calentamiento": {
+                "ejercicio1": {
+                    "repeticiones": "2",
+                    "metros": 200,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "1",
+                    "metros": 100,
+                    "tiempo": 10,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            },
+            "parte_principal": {
+                "ejercicio1": {
+                    "repeticiones": "4",
+                    "metros": 50,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "moderado",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "2",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "intenso",
+                    "material": ""
+                }
+            },
+            "vuelta_a_la_calma": {
+                "ejercicio1": {
+                    "repeticiones": "1",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "2",
+                    "metros": 50,
+                    "tiempo": 5,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            }
+        },
+        {
+            "id": 3,
+            "nombre": "Entrenamiento 3",
+            "nivel": "Principiante",
+            "descripcion": "Entrenamiento para principiantes",
+            "calentamiento": {
+                "ejercicio1": {
+                    "repeticiones": "1",
+                    "metros": 200,
+                    "tiempo": "",
+                    "estilo": "nado libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "2",
+                    "metros": "100W",
+                    "tiempo": 10,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            },
+            "parte_principal": {
+                "ejercicio1": {
+                    "repeticiones": "4",
+                    "metros": 50,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "moderado",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "2",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "intenso",
+                    "material": ""
+                }
+            },
+            "vuelta_a_la_calma": {
+                "ejercicio1": {
+                    "repeticiones": "1",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "2",
+                    "metros": 50,
+                    "tiempo": 5,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            }
+        },
+        {
+            "id": 4,
+            "nombre": "Entrenamiento 4",
+            "nivel": "Intermedio",
+            "descripcion": "Entrenamiento para intermedios",
+            "calentamiento": {
+                "ejercicio1": {
+                    "repeticiones": "Calentamiento ligero",
+                    "metros": 200,
+                    "tiempo": "",
+                    "estilo": "nado libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Estiramientos dinámicos",
+                    "metros": "",
+                    "tiempo": 10,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            },
+            "parte_principal": {
+                "ejercicio1": {
+                    "repeticiones": "Serie de 4x50m",
+                    "metros": 50,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "moderado",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Serie de 2x100m",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "intenso",
+                    "material": ""
+                }
+            },
+            "vuelta_a_la_calma": {
+                "ejercicio1": {
+                    "repeticiones": "Nado suave",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Estiramientos estáticos",
+                    "metros": "",
+                    "tiempo": 5,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            }
+        },
+        {
+            "id": 5,
+            "nombre": "Entrenamiento 5",
+            "nivel": "Intermedio",
+            "descripcion": "Entrenamiento para intermedios",
+            "calentamiento": {
+                "ejercicio1": {
+                    "repeticiones": "Calentamiento ligero",
+                    "metros": 200,
+                    "tiempo": "",
+                    "estilo": "nado libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Estiramientos dinámicos",
+                    "metros": "",
+                    "tiempo": 10,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            },
+            "parte_principal": {
+                "ejercicio1": {
+                    "repeticiones": "Serie de 4x50m",
+                    "metros": 50,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "moderado",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Serie de 2x100m",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "intenso",
+                    "material": ""
+                }
+            },
+            "vuelta_a_la_calma": {
+                "ejercicio1": {
+                    "repeticiones": "Nado suave",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Estiramientos estáticos",
+                    "metros": "",
+                    "tiempo": 5,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            }
+        },
+        {
+            "id": 6,
+            "nombre": "Entrenamiento 6",
+            "nivel": "Intermedio",
+            "descripcion": "Entrenamiento para intermedios",
+            "calentamiento": {
+                "ejercicio1": {
+                    "repeticiones": "Calentamiento ligero",
+                    "metros": 200,
+                    "tiempo": "",
+                    "estilo": "nado libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Estiramientos dinámicos",
+                    "metros": "",
+                    "tiempo": 10,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            },
+            "parte_principal": {
+                "ejercicio1": {
+                    "repeticiones": "Serie de 4x50m",
+                    "metros": 50,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "moderado",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Serie de 2x100m",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "intenso",
+                    "material": ""
+                }
+            },
+            "vuelta_a_la_calma": {
+                "ejercicio1": {
+                    "repeticiones": "Nado suave",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Estiramientos estáticos",
+                    "metros": "",
+                    "tiempo": 5,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            }
+        },
+        {
+            "id": 7,
+            "nombre": "Entrenamiento 7",
+            "nivel": "Avanzado",
+            "descripcion": "Entrenamiento para avanzados",
+            "calentamiento": {
+                "ejercicio1": {
+                    "repeticiones": "Calentamiento ligero",
+                    "metros": 200,
+                    "tiempo": "",
+                    "estilo": "nado libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Estiramientos dinámicos",
+                    "metros": "",
+                    "tiempo": 10,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            },
+            "parte_principal": {
+                "ejercicio1": {
+                    "repeticiones": "Serie de 4x50m",
+                    "metros": 50,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "moderado",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Serie de 2x100m",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "intenso",
+                    "material": ""
+                }
+            },
+            "vuelta_a_la_calma": {
+                "ejercicio1": {
+                    "repeticiones": "Nado suave",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Estiramientos estáticos",
+                    "metros": "",
+                    "tiempo": 5,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            }
+        },
+        {
+            "id": 8,
+            "nombre": "Entrenamiento 8",
+            "nivel": "Avanzado",
+            "descripcion": "Entrenamiento para avanzados",
+            "calentamiento": {
+                "ejercicio1": {
+                    "repeticiones": "Calentamiento ligero",
+                    "metros": 200,
+                    "tiempo": "",
+                    "estilo": "nado libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Estiramientos dinámicos",
+                    "metros": "",
+                    "tiempo": 10,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            },
+            "parte_principal": {
+                "ejercicio1": {
+                    "repeticiones": "Serie de 4x50m",
+                    "metros": 50,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "moderado",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Serie de 2x100m",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "intenso",
+                    "material": ""
+                }
+            },
+            "vuelta_a_la_calma": {
+                "ejercicio1": {
+                    "repeticiones": "Nado suave",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Estiramientos estáticos",
+                    "metros": "",
+                    "tiempo": 5,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            }
+        },
+        {
+            "id": 9,
+            "nombre": "Entrenamiento 9",
+            "nivel": "Avanzado",
+            "descripcion": "Entrenamiento para avanzados",
+            "calentamiento": {
+                "ejercicio1": {
+                    "repeticiones": "Calentamiento ligero",
+                    "metros": 200,
+                    "tiempo": "",
+                    "estilo": "nado libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Estiramientos dinámicos",
+                    "metros": "",
+                    "tiempo": 10,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            },
+            "parte_principal": {
+                "ejercicio1": {
+                    "repeticiones": "Serie de 4x50m",
+                    "metros": 50,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "moderado",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Serie de 2x100m",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "intenso",
+                    "material": ""
+                }
+            },
+            "vuelta_a_la_calma": {
+                "ejercicio1": {
+                    "repeticiones": "Nado suave",
+                    "metros": 100,
+                    "tiempo": "",
+                    "estilo": "libre",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                },
+                "ejercicio2": {
+                    "repeticiones": "Estiramientos estáticos",
+                    "metros": "",
+                    "tiempo": 5,
+                    "estilo": "",
+                    "tecnica": "",
+                    "ritmo": "",
+                    "material": ""
+                }
+            }
+        }
+    ],
+    "ritmos": [
+        {
+            "nombre": "Ligero"
+        },
+        {
+            "nombre": "Medio"
+        },
+        {
+            "nombre": "Intenso"
+        }
+    ],
+    "materiales": [
+        {
+            "nombre": "Aletas"
+        },
+        {
+            "nombre": "Palas"
+        },
+        {
+            "nombre": "Pull"
+        },
+        {
+            "nombre": "Tubo"
+        }
+    ]
+}

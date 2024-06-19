@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Entrenamiento</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding-top: 40px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        button[type="submit"] {
+            width: 100%;
+        }
+
+        .btn-sm {
+            margin-left: 10px;
+        }
+
+        .btn-eliminar {
+            margin-left: 10px;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 15%;
+            text-align: center;
+        }
+
+        #btn-volver{
+            padding: 10px;
+            font-style: normal;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Crear Nuevo Entrenamiento</h1>
+        <form action="../php/guardarEntrenamiento.php" method="POST">
+            <div class="form-group">
+                <label for="nombreEntrenamiento">Nombre del Entrenamiento</label>
+                <input type="text" class="form-control" id="nombreEntrenamiento" name="nombreEntrenamiento"
+                    placeholder="Ingrese el nombre">
+            </div>
+
+            <div class="form-group">
+                <label>Calentamiento</label>
+                <div id="calentamiento" class="mb-3"></div>
+                <button type="button" class="btn btn-secondary btn-sm"
+                    onclick="agregarEjercicio('calentamiento')">Añadir ejercicio</button>
+            </div>
+
+            <div class="form-group">
+                <label>Parte Principal</label>
+                <div id="parte_principal" class="mb-3"></div>
+                <button type="button" class="btn btn-secondary btn-sm"
+                    onclick="agregarEjercicio('parte_principal')">Añadir ejercicio</button>
+            </div>
+
+            <div class="form-group">
+                <label>Vuelta a la Calma</label>
+                <div id="vuelta_calma" class="mb-3"></div>
+                <button type="button" class="btn btn-secondary btn-sm" onclick="agregarEjercicio('vuelta_calma')">Añadir
+                    ejercicio</button>
+            </div>
+
+            <div class="row">
+                <div class="col-md-11">
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </div>
+                <div class="col-md-1">
+                    <a href="../php/misEntrenamientos.php" class="btn btn-primary">Volver</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <label class="form-label" id="modal-message"></label>
+            <button class="close btn btn-primary" id="btn-volver">Volver</button>
+        </div>
+    </div>
+
+    <script src="../js/crearEntrenamieto.js"></script>
+    <script>
+        function getModal(mensaje) {
+            let modal = document.getElementById("myModal");
+            let modalMessage = document.getElementById("modal-message");
+            modalMessage.textContent = mensaje;
+            modal.style.display = "block";
+        }
+
+        let closeButton = document.querySelector(".close");
+        closeButton.onclick = function () {
+            window.location.href = "../php/misEntrenamientos.php";
+        };
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
